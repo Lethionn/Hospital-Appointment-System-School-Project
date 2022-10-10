@@ -1,0 +1,166 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <S3>
+    <TID>1</TID>
+    <AppID>202001</AppID>
+    <ModuleID>3</ModuleID>
+    <SubNo>0</SubNo>
+    <RepDate>2020-05-12T00:00:00+03:00</RepDate>
+    <RepType>0</RepType>
+    <Settings>&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="#LayoutScaleFactor"&gt;@11,Width=0.857142866@6,Height=0.8125&lt;/property&gt;
+  &lt;property name="OptionsView" isnull="true" iskey="true"&gt;
+    &lt;property name="NewItemRowPosition"&gt;Top&lt;/property&gt;
+    &lt;property name="ShowAutoFilterRow"&gt;true&lt;/property&gt;
+    &lt;property name="ShowFooter"&gt;true&lt;/property&gt;
+  &lt;/property&gt;
+  &lt;property name="FixedLineWidth"&gt;2&lt;/property&gt;
+  &lt;property name="IndicatorWidth"&gt;-1&lt;/property&gt;
+  &lt;property name="ColumnPanelRowHeight"&gt;-1&lt;/property&gt;
+  &lt;property name="RowSeparatorHeight"&gt;0&lt;/property&gt;
+  &lt;property name="FooterPanelHeight"&gt;-1&lt;/property&gt;
+  &lt;property name="HorzScrollVisibility"&gt;Auto&lt;/property&gt;
+  &lt;property name="VertScrollVisibility"&gt;Auto&lt;/property&gt;
+  &lt;property name="RowHeight"&gt;-1&lt;/property&gt;
+  &lt;property name="GroupRowHeight"&gt;-1&lt;/property&gt;
+  &lt;property name="GroupFormat"&gt;{0}: [#image]{1} {2}&lt;/property&gt;
+  &lt;property name="ChildGridLevelName" /&gt;
+  &lt;property name="VertScrollTipFieldName" /&gt;
+  &lt;property name="PreviewFieldName" /&gt;
+  &lt;property name="GroupPanelText" /&gt;
+  &lt;property name="NewItemRowText" /&gt;
+  &lt;property name="LevelIndent"&gt;-1&lt;/property&gt;
+  &lt;property name="PreviewIndent"&gt;-1&lt;/property&gt;
+  &lt;property name="PreviewLineCount"&gt;-1&lt;/property&gt;
+  &lt;property name="ScrollStyle"&gt;LiveVertScroll, LiveHorzScroll&lt;/property&gt;
+  &lt;property name="FocusRectStyle"&gt;CellFocus&lt;/property&gt;
+  &lt;property name="HorzScrollStep"&gt;0&lt;/property&gt;
+  &lt;property name="ActiveFilterEnabled"&gt;true&lt;/property&gt;
+  &lt;property name="ViewCaptionHeight"&gt;-1&lt;/property&gt;
+  &lt;property name="Columns" iskey="true" value="7"&gt;
+    &lt;property name="Item1" isnull="true" iskey="true"&gt;
+      &lt;property name="Name"&gt;colID&lt;/property&gt;
+      &lt;property name="OptionsColumn" isnull="true" iskey="true"&gt;
+        &lt;property name="AllowEdit"&gt;false&lt;/property&gt;
+      &lt;/property&gt;
+      &lt;property name="ImageAlignment"&gt;Near&lt;/property&gt;
+      &lt;property name="ImageIndex"&gt;-1&lt;/property&gt;
+      &lt;property name="FieldName"&gt;ID&lt;/property&gt;
+      &lt;property name="ColumnEditName" /&gt;
+      &lt;property name="VisibleIndex"&gt;0&lt;/property&gt;
+      &lt;property name="Visible"&gt;true&lt;/property&gt;
+      &lt;property name="Width"&gt;80&lt;/property&gt;
+      &lt;property name="MinWidth"&gt;25&lt;/property&gt;
+      &lt;property name="MaxWidth"&gt;0&lt;/property&gt;
+      &lt;property name="Summary" iskey="true" value="1"&gt;
+        &lt;property name="Item1" isnull="true" iskey="true"&gt;
+          &lt;property name="Tag" isnull="true" /&gt;
+          &lt;property name="FieldName"&gt;ID&lt;/property&gt;
+          &lt;property name="SummaryType"&gt;Count&lt;/property&gt;
+          &lt;property name="DisplayFormat"&gt;{0}&lt;/property&gt;
+        &lt;/property&gt;
+      &lt;/property&gt;
+    &lt;/property&gt;
+    &lt;property name="Item2" isnull="true" iskey="true"&gt;
+      &lt;property name="Name"&gt;colASID&lt;/property&gt;
+      &lt;property name="ImageAlignment"&gt;Near&lt;/property&gt;
+      &lt;property name="ImageIndex"&gt;-1&lt;/property&gt;
+      &lt;property name="FieldName"&gt;ASID&lt;/property&gt;
+      &lt;property name="ColumnEditName"&gt;ASID&lt;/property&gt;
+      &lt;property name="VisibleIndex"&gt;1&lt;/property&gt;
+      &lt;property name="Visible"&gt;true&lt;/property&gt;
+      &lt;property name="Width"&gt;80&lt;/property&gt;
+      &lt;property name="MinWidth"&gt;25&lt;/property&gt;
+      &lt;property name="MaxWidth"&gt;0&lt;/property&gt;
+    &lt;/property&gt;
+    &lt;property name="Item3" isnull="true" iskey="true"&gt;
+      &lt;property name="Name"&gt;colAsName&lt;/property&gt;
+      &lt;property name="ImageAlignment"&gt;Near&lt;/property&gt;
+      &lt;property name="ImageIndex"&gt;-1&lt;/property&gt;
+      &lt;property name="FieldName"&gt;AsName&lt;/property&gt;
+      &lt;property name="ColumnEditName" /&gt;
+      &lt;property name="VisibleIndex"&gt;2&lt;/property&gt;
+      &lt;property name="Visible"&gt;true&lt;/property&gt;
+      &lt;property name="Width"&gt;80&lt;/property&gt;
+      &lt;property name="MinWidth"&gt;25&lt;/property&gt;
+      &lt;property name="MaxWidth"&gt;0&lt;/property&gt;
+    &lt;/property&gt;
+    &lt;property name="Item4" isnull="true" iskey="true"&gt;
+      &lt;property name="Name"&gt;colAsSurname&lt;/property&gt;
+      &lt;property name="ImageAlignment"&gt;Near&lt;/property&gt;
+      &lt;property name="ImageIndex"&gt;-1&lt;/property&gt;
+      &lt;property name="FieldName"&gt;AsSurname&lt;/property&gt;
+      &lt;property name="ColumnEditName" /&gt;
+      &lt;property name="VisibleIndex"&gt;3&lt;/property&gt;
+      &lt;property name="Visible"&gt;true&lt;/property&gt;
+      &lt;property name="Width"&gt;80&lt;/property&gt;
+      &lt;property name="MinWidth"&gt;25&lt;/property&gt;
+      &lt;property name="MaxWidth"&gt;0&lt;/property&gt;
+    &lt;/property&gt;
+    &lt;property name="Item5" isnull="true" iskey="true"&gt;
+      &lt;property name="Name"&gt;colDescription&lt;/property&gt;
+      &lt;property name="ImageAlignment"&gt;Near&lt;/property&gt;
+      &lt;property name="ImageIndex"&gt;-1&lt;/property&gt;
+      &lt;property name="FieldName"&gt;Description&lt;/property&gt;
+      &lt;property name="ColumnEditName" /&gt;
+      &lt;property name="VisibleIndex"&gt;4&lt;/property&gt;
+      &lt;property name="Visible"&gt;true&lt;/property&gt;
+      &lt;property name="Width"&gt;80&lt;/property&gt;
+      &lt;property name="MinWidth"&gt;25&lt;/property&gt;
+      &lt;property name="MaxWidth"&gt;0&lt;/property&gt;
+    &lt;/property&gt;
+    &lt;property name="Item6" isnull="true" iskey="true"&gt;
+      &lt;property name="Name"&gt;colCitizenId&lt;/property&gt;
+      &lt;property name="ImageAlignment"&gt;Near&lt;/property&gt;
+      &lt;property name="ImageIndex"&gt;-1&lt;/property&gt;
+      &lt;property name="FieldName"&gt;CitizenId&lt;/property&gt;
+      &lt;property name="ColumnEditName" /&gt;
+      &lt;property name="VisibleIndex"&gt;5&lt;/property&gt;
+      &lt;property name="Visible"&gt;true&lt;/property&gt;
+      &lt;property name="Width"&gt;80&lt;/property&gt;
+      &lt;property name="MinWidth"&gt;25&lt;/property&gt;
+      &lt;property name="MaxWidth"&gt;0&lt;/property&gt;
+    &lt;/property&gt;
+    &lt;property name="Item7" isnull="true" iskey="true"&gt;
+      &lt;property name="Name"&gt;colDepartmentId&lt;/property&gt;
+      &lt;property name="ImageAlignment"&gt;Near&lt;/property&gt;
+      &lt;property name="ImageIndex"&gt;-1&lt;/property&gt;
+      &lt;property name="FieldName"&gt;DepartmentId&lt;/property&gt;
+      &lt;property name="ColumnEditName"&gt;DepartmentId&lt;/property&gt;
+      &lt;property name="VisibleIndex"&gt;6&lt;/property&gt;
+      &lt;property name="Visible"&gt;true&lt;/property&gt;
+      &lt;property name="Width"&gt;80&lt;/property&gt;
+      &lt;property name="MinWidth"&gt;25&lt;/property&gt;
+      &lt;property name="MaxWidth"&gt;0&lt;/property&gt;
+    &lt;/property&gt;
+  &lt;/property&gt;
+  &lt;property name="ViewCaption" /&gt;
+  &lt;property name="BorderStyle"&gt;NoBorder&lt;/property&gt;
+  &lt;property name="SynchronizeClones"&gt;true&lt;/property&gt;
+  &lt;property name="DetailTabHeaderLocation"&gt;Top&lt;/property&gt;
+  &lt;property name="Name"&gt;gridView&lt;/property&gt;
+  &lt;property name="DetailHeight"&gt;231&lt;/property&gt;
+  &lt;property name="Tag" isnull="true" /&gt;
+  &lt;property name="GroupSummary" iskey="true" value="0" /&gt;
+  &lt;property name="ActiveFilterString" /&gt;
+  &lt;property name="FormatRules" iskey="true" value="0" /&gt;
+  &lt;property name="SortInfoState" iskey="true" value="1"&gt;
+    &lt;property name="Item1" isnull="true" iskey="true"&gt;
+      &lt;property name="Orders"&gt;Descending&lt;/property&gt;
+      &lt;property name="Columns"&gt;colDepartmentId&lt;/property&gt;
+    &lt;/property&gt;
+    &lt;property name="Content" isnull="true" iskey="true"&gt;
+      &lt;property name="GroupCount"&gt;0&lt;/property&gt;
+    &lt;/property&gt;
+  &lt;/property&gt;
+  &lt;property name="FormatConditions" iskey="true" value="0" /&gt;
+  &lt;property name="GroupSummarySortInfoState" /&gt;
+  &lt;property name="FindFilterText" /&gt;
+  &lt;property name="FindPanelVisible"&gt;false&lt;/property&gt;
+&lt;/XtraSerializer&gt;</Settings>
+    <StyleSet />
+    <Description>Varsayılan</Description>
+    <active>true</active>
+  </S3>
+</DocumentElement>
