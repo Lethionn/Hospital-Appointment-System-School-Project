@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DA921B7-BAB9-4ECA-915C-D3F513EE59E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HospitalApp</RootNamespace>
+    <AssemblyName>HospitalApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v19.1.UI, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="apClasses\apUtils.cs" />
+    <Compile Include="apClasses\CApFormFinderAndCloser.cs" />
+    <Compile Include="apForms\frmDlgCreateAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmDlgCreateAppointment.Designer.cs">
+      <DependentUpon>frmDlgCreateAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmLoginUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmLoginUser.Designer.cs">
+      <DependentUpon>frmLoginUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmCities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmCities.Designer.cs">
+      <DependentUpon>frmCities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmPatientExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmPatientExam.Designer.cs">
+      <DependentUpon>frmPatientExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmRegisterPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmRegisterPatient.Designer.cs">
+      <DependentUpon>frmRegisterPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmPatients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmPatients.Designer.cs">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmOperators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmOperators.Designer.cs">
+      <DependentUpon>frmOperators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmAssistants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmAssistants.Designer.cs">
+      <DependentUpon>frmAssistants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmSpecialities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmSpecialities.Designer.cs">
+      <DependentUpon>frmSpecialities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmDoctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmDoctors.Designer.cs">
+      <DependentUpon>frmDoctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmDepartments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmDepartments.Designer.cs">
+      <DependentUpon>frmDepartments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apForms\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apForms\frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apGlobal.cs" />
+    <Compile Include="FrmDlgAyar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDlgAyar.designer.cs">
+      <DependentUpon>FrmDlgAyar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="apForms\frmDlgCreateAppointment.resx">
+      <DependentUpon>frmDlgCreateAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmLoginUser.resx">
+      <DependentUpon>frmLoginUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmCities.resx">
+      <DependentUpon>frmCities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmPatientExam.resx">
+      <DependentUpon>frmPatientExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmRegisterPatient.resx">
+      <DependentUpon>frmRegisterPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmPatients.resx">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmOperators.resx">
+      <DependentUpon>frmOperators.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmAssistants.resx">
+      <DependentUpon>frmAssistants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmSpecialities.resx">
+      <DependentUpon>frmSpecialities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmDoctors.resx">
+      <DependentUpon>frmDoctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmDepartments.resx">
+      <DependentUpon>frmDepartments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apForms\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDlgAyar.resx">
+      <DependentUpon>FrmDlgAyar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\sclDW\sclDW.csproj">
+      <Project>{e3aeb6f9-f832-49bd-8dc9-164f8eaf51c5}</Project>
+      <Name>sclDW</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i24_dur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i24_onayla.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
