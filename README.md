@@ -1,5 +1,11 @@
 # Hospital Appointment System
 
+<p align="center">
+    <img width="800" src="https://user-images.githubusercontent.com/115498474/194956655-30611802-3c82-4edb-8c5a-a96e8ccc77e4.png">
+</p>
+
+*The data used in this table is randomly generated and does not belong to actual people.* 
+
 ## Definition
 The main goal of the application is to create a appointment system for the patients who apply to hospitals in regard
 to their medical needs. Application provides the central substructure and the interface, required to assist personnel
